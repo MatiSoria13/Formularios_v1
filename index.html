@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios de Registro y Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formularios de Registro y Contacto</h1>
+
+    <!-- Primer formulario -->
+    <form>
+        <fieldset>
+            <legend>Formulario de Registro</legend>
+            <label>Género:</label>
+            <input type="radio" name="genero" value="hombre"> Hombre
+            <input type="radio" name="genero" value="mujer"> Mujer
+            <label>Ciudad:</label>
+            <select>
+                <option value="montevideo">Montevideo</option>
+                <!-- otras opciones -->
+            </select>
+            <div class="form-actions">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restablecer">
+            </div>
+        </fieldset>
+    </form>
+
+    <!-- Segundo formulario -->
+    <form>
+        <fieldset>
+            <legend>Formulario de Registro</legend>
+            <label>Género:</label>
+            <input type="radio" name="genero" value="hombre"> Hombre
+            <input type="radio" name="genero" value="mujer"> Mujer
+            <label>Ciudad:</label>
+            <select>
+                <option value="montevideo">Montevideo</option>
+                <!-- otras opciones -->
+            </select>
+            <label>Preferencias:</label>
+            <input type="checkbox" name="preferencias" value="deportes"> Deportes
+            <input type="checkbox" name="preferencias" value="libros"> Libros
+            <input type="checkbox" name="preferencias" value="cine"> Cine
+            <div class="form-actions">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restablecer">
+            </div>
+        </fieldset>
+    </form>
+
+    <!-- Tercer formulario -->
+    <form>
+        <fieldset>
+            <legend>Formulario de Registro</legend>
+            <label>Datos personales</label>
+            <label>Nombre:</label>
+            <input type="text" name="nombre">
+            <label>Apellidos:</label>
+            <input type="text" name="apellidos">
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" value="hombre"> Hombre
+            <input type="radio" name="sexo" value="mujer"> Mujer
+        </fieldset>
+        <fieldset>
+            <legend>Contacto</legend>
+            <label>Correo:</label>
+            <input type="email" name="correo">
+            <input type="checkbox" name="novedades"> Deseo recibir información sobre novedades y ofertas.
+            <input type="checkbox" name="condiciones"> Declaro haber leído y aceptar las condiciones del proveedor.
+        </fieldset>
+        <div class="form-actions">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </div>
+    </form>
+
+    <!-- Cuarto formulario -->
+    <form>
+        <fieldset>
+            <legend>Formulario de Contacto</legend>
+            <label>Datos personales</label>
+            <label>Nombre completo:</label>
+            <input type="text" name="nombre_completo">
+            <label>Teléfono:</label>
+            <input type="text" name="telefono">
+            <label>Correo electrónico:</label>
+            <input type="email" name="correo_electronico">
+            <label>País:</label>
+            <select>
+                <option value="uruguay">Uruguay</option>
+                <!-- otras opciones -->
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Intereses</legend>
+            <input type="checkbox" name="intereses" value="deportes"> Deportes
+            <input type="checkbox" name="intereses" value="musica"> Música
+        </fieldset>
+        <div class="form-actions">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+        </div>
+    </form>
+
+    <!-- Quinto formulario -->
+    <form>
+        <fieldset>
+            <legend>Formulario de Información</legend>
+            <label>Nombre:</label>
+            <input type="text" name="nombre">
+            <label>Apellidos:</label>
+            <input type="text" name="apellidos">
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" value="hombre"> Hombre
+            <input type="radio" name="sexo" value="mujer"> Mujer
+            <label>Correo:</label>
+            <input type="email" name="correo">
+            <label>Ciudad:</label>
+            <select>
+                <option value="montevideo">Montevideo</option>
+                <!-- otras opciones -->
+            </select>
+            <label>Descripción:</label>
+            <input type="checkbox" name="novedades"> Deseo recibir información sobre novedades y ofertas.
+            <input type="checkbox" name="acuerdo"> Estoy de acuerdo con recibir información.
+        </fieldset>
+        <div class="form-actions">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+        </div>
+    </form>
+</body>
+</html>
